@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/dataStructure.dir/Compress.cpp.o CMakeFiles/dataStructure.dir/Extract.cpp.o CMakeFiles/dataStructure.dir/test.cpp.o CMakeFiles/dataStructure.dir/BitBuffer.cpp.o  -o dataStructure 
