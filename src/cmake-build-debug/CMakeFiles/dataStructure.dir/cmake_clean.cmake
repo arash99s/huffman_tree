@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dataStructure.dir/BitBuffer.cpp.o"
   "CMakeFiles/dataStructure.dir/Compress.cpp.o"
   "CMakeFiles/dataStructure.dir/Extract.cpp.o"
-  "CMakeFiles/dataStructure.dir/test.cpp.o"
+  "CMakeFiles/dataStructure.dir/main.cpp.o"
   "dataStructure"
   "dataStructure.pdb"
 )

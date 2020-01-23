@@ -83,18 +83,18 @@ CMakeFiles/dataStructure.dir/Extract.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructure.dir/Extract.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arash/github_repositories/huffman_tree/src/Extract.cpp -o CMakeFiles/dataStructure.dir/Extract.cpp.s
 
-CMakeFiles/dataStructure.dir/test.cpp.o: CMakeFiles/dataStructure.dir/flags.make
-CMakeFiles/dataStructure.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dataStructure.dir/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dataStructure.dir/test.cpp.o -c /home/arash/github_repositories/huffman_tree/src/test.cpp
+CMakeFiles/dataStructure.dir/main.cpp.o: CMakeFiles/dataStructure.dir/flags.make
+CMakeFiles/dataStructure.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dataStructure.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dataStructure.dir/main.cpp.o -c /home/arash/github_repositories/huffman_tree/src/main.cpp
 
-CMakeFiles/dataStructure.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructure.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arash/github_repositories/huffman_tree/src/test.cpp > CMakeFiles/dataStructure.dir/test.cpp.i
+CMakeFiles/dataStructure.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructure.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arash/github_repositories/huffman_tree/src/main.cpp > CMakeFiles/dataStructure.dir/main.cpp.i
 
-CMakeFiles/dataStructure.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructure.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arash/github_repositories/huffman_tree/src/test.cpp -o CMakeFiles/dataStructure.dir/test.cpp.s
+CMakeFiles/dataStructure.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructure.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arash/github_repositories/huffman_tree/src/main.cpp -o CMakeFiles/dataStructure.dir/main.cpp.s
 
 CMakeFiles/dataStructure.dir/BitBuffer.cpp.o: CMakeFiles/dataStructure.dir/flags.make
 CMakeFiles/dataStructure.dir/BitBuffer.cpp.o: ../BitBuffer.cpp
@@ -113,7 +113,7 @@ CMakeFiles/dataStructure.dir/BitBuffer.cpp.s: cmake_force
 dataStructure_OBJECTS = \
 "CMakeFiles/dataStructure.dir/Compress.cpp.o" \
 "CMakeFiles/dataStructure.dir/Extract.cpp.o" \
-"CMakeFiles/dataStructure.dir/test.cpp.o" \
+"CMakeFiles/dataStructure.dir/main.cpp.o" \
 "CMakeFiles/dataStructure.dir/BitBuffer.cpp.o"
 
 # External object files for target dataStructure
@@ -121,7 +121,7 @@ dataStructure_EXTERNAL_OBJECTS =
 
 dataStructure: CMakeFiles/dataStructure.dir/Compress.cpp.o
 dataStructure: CMakeFiles/dataStructure.dir/Extract.cpp.o
-dataStructure: CMakeFiles/dataStructure.dir/test.cpp.o
+dataStructure: CMakeFiles/dataStructure.dir/main.cpp.o
 dataStructure: CMakeFiles/dataStructure.dir/BitBuffer.cpp.o
 dataStructure: CMakeFiles/dataStructure.dir/build.make
 dataStructure: CMakeFiles/dataStructure.dir/link.txt

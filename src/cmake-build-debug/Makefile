@@ -204,32 +204,32 @@ Extract.cpp.s:
 	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/Extract.cpp.s
 .PHONY : Extract.cpp.s
 
-test.o: test.cpp.o
+main.o: main.cpp.o
 
-.PHONY : test.o
+.PHONY : main.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/test.cpp.o
-.PHONY : test.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test.i: test.cpp.i
+main.i: main.cpp.i
 
-.PHONY : test.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/test.cpp.i
-.PHONY : test.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test.s: test.cpp.s
+main.s: main.cpp.s
 
-.PHONY : test.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/test.cpp.s
-.PHONY : test.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -249,9 +249,9 @@ help:
 	@echo "... Extract.o"
 	@echo "... Extract.i"
 	@echo "... Extract.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

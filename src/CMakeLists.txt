@@ -10,6 +10,6 @@ add_executable(dataStructure
     Compress.h
     Extract.cpp
     Extract.h
-    test.cpp
+        main.cpp
         BitBuffer.h
         BitBuffer.cpp)

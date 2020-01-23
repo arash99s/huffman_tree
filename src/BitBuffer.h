@@ -15,7 +15,7 @@ private:
     unsigned count = 0;
 public:
     ofstream file; // Initialization skipped.
-    void outputBit(bool bit);
+    bool outputBit(bool bit);
 };
 
 

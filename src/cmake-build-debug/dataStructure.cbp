@@ -104,7 +104,7 @@
 		<Unit filename="/home/arash/github_repositories/huffman_tree/src/Extract.h">
 			<Option target="dataStructure"/>
 		</Unit>
-		<Unit filename="/home/arash/github_repositories/huffman_tree/src/test.cpp">
+		<Unit filename="/home/arash/github_repositories/huffman_tree/src/main.cpp">
 			<Option target="dataStructure"/>
 		</Unit>
 		<Unit filename="/home/arash/github_repositories/huffman_tree/src/CMakeLists.txt">

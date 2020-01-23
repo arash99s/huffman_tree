@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/arash/github_repositories/huffman_tree/src/BitBuffer.cpp" "/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles/dataStructure.dir/BitBuffer.cpp.o"
   "/home/arash/github_repositories/huffman_tree/src/Compress.cpp" "/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles/dataStructure.dir/Compress.cpp.o"
   "/home/arash/github_repositories/huffman_tree/src/Extract.cpp" "/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles/dataStructure.dir/Extract.cpp.o"
-  "/home/arash/github_repositories/huffman_tree/src/test.cpp" "/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles/dataStructure.dir/test.cpp.o"
+  "/home/arash/github_repositories/huffman_tree/src/main.cpp" "/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles/dataStructure.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

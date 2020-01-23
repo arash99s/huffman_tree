@@ -11,8 +11,7 @@ CMakeFiles/dataStructure.dir/Compress.cpp.o
 CMakeFiles/dataStructure.dir/Extract.cpp.o
  /home/arash/github_repositories/huffman_tree/src/Extract.cpp
  /home/arash/github_repositories/huffman_tree/src/Extract.h
-CMakeFiles/dataStructure.dir/test.cpp.o
- /home/arash/github_repositories/huffman_tree/src/BitBuffer.h
+CMakeFiles/dataStructure.dir/main.cpp.o
  /home/arash/github_repositories/huffman_tree/src/Compress.h
  /home/arash/github_repositories/huffman_tree/src/Extract.h
- /home/arash/github_repositories/huffman_tree/src/test.cpp
+ /home/arash/github_repositories/huffman_tree/src/main.cpp

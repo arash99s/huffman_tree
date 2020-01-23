@@ -6,6 +6,7 @@
 #include "iostream"
 #include "vector"
 #include "BitBuffer.h"
+#include "math.h"
 
 using namespace std;
 
@@ -49,6 +50,11 @@ Compress::execute() {
 
 bool
 Compress::readFromFile() {
+    ////////////fix bug
+    ofstream wf(file_name , ios_base::app);
+    wf << '\n';
+    wf.close();
+    /////
     ifstream myfile(file_name);
     if (!myfile.is_open()) {
         cout << "unable to open the file" << endl;
@@ -69,7 +75,6 @@ Compress::readFromFile() {
         } else {
             inc_frequency(myChar);
         }
-        cout << myChar;
     }
     myfile.close();
     cout << endl;
@@ -155,7 +160,21 @@ Compress::readAndWrite() {
         return false;
     }
     BitBuffer bitBuffer;
-    bitBuffer.file = ofstream("../../compressed", ios::out | ios::binary);
+    bitBuffer.file = ofstream(file_name+"_compressed", ios::out | ios::binary);
+    //////////write header
+    NodeDetails detail_number;
+    detail_number.ch = 'n';
+    detail_number.bit_number = 0;
+    detail_number.code = nodes.size();
+    bitBuffer.file.write((char *) &detail_number , sizeof(NodeDetails));
+    for (Node *node : nodes){
+        NodeDetails detail;
+        detail.ch = node->ch;
+        detail.bit_number = node->code.length();
+        detail.code = bin2integer(node->code);
+        bitBuffer.file.write((char *) &detail , sizeof(NodeDetails));
+    }
+    /////////
     while (!myfile.eof()) {
         char myChar;
         myfile.get(myChar);
@@ -165,7 +184,18 @@ Compress::readAndWrite() {
             else bitBuffer.outputBit(1);
         }
     }
+
     myfile.close();
     bitBuffer.file.close();
     return true;
+}
+
+int
+Compress::bin2integer(std::string bin) {
+    double output = 0;
+    for (int i =0;i<bin.length();i++){
+        if(bin.at(i) == '1')
+            output += pow(2 , bin.length()-i-1);
+    }
+    return (int) output;
 }

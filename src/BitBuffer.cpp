@@ -6,7 +6,7 @@
 #include "iostream"
 using namespace std;
 
-void
+bool
 BitBuffer::outputBit(bool bit) {
     //buffer <<= 1;         // Make room for next bit.
     bits.operator<<=(1);
@@ -18,8 +18,10 @@ BitBuffer::outputBit(bool bit) {
     if (count == 8) {
         //file.write((char *)  &buffer, sizeof(buffer)); // Error handling elided.
         file.write((char *) &bits, 1);
-        cout << "write : " << bits << endl;
+        //cout << "write : " << bits << endl;
         bits = {0b00000000};
         count = 0;
+        return true;
     }
+    return false;
 }

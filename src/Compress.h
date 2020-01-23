@@ -11,7 +11,6 @@
 #include "bitset"
 class Compress {
 private:
-    //std::ifstream myfile;
     std::string file_name;
     bool readFromFile();
     bool contain(std::vector<char> charackters , char cur_char);
@@ -21,12 +20,19 @@ private:
         Node *left , *right;
         std::string code = "";
     };
+    struct NodeDetails{
+        char ch;
+        int bit_number;
+        int code ;
+        //std::string code;
+    };
     std::vector<Node *> nodes;
     void inc_frequency(char ch);
     void sortNodes();
     void encodeNodes(Node *root , std::string code);
     std::string findCode(char input);
     bool readAndWrite();
+    int bin2integer(std::string bin);
 public:
     Compress(std::string file_name);
     void execute();

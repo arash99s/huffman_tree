@@ -21,6 +21,8 @@ vector
 /home/arash/github_repositories/huffman_tree/src/vector
 BitBuffer.h
 /home/arash/github_repositories/huffman_tree/src/BitBuffer.h
+math.h
+/home/arash/github_repositories/huffman_tree/src/math.h
 
 /home/arash/github_repositories/huffman_tree/src/Compress.h
 iostream

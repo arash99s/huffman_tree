@@ -11,8 +11,7 @@ CMakeFiles/dataStructure.dir/Compress.cpp.o: ../Compress.h
 CMakeFiles/dataStructure.dir/Extract.cpp.o: ../Extract.cpp
 CMakeFiles/dataStructure.dir/Extract.cpp.o: ../Extract.h
 
-CMakeFiles/dataStructure.dir/test.cpp.o: ../BitBuffer.h
-CMakeFiles/dataStructure.dir/test.cpp.o: ../Compress.h
-CMakeFiles/dataStructure.dir/test.cpp.o: ../Extract.h
-CMakeFiles/dataStructure.dir/test.cpp.o: ../test.cpp
+CMakeFiles/dataStructure.dir/main.cpp.o: ../Compress.h
+CMakeFiles/dataStructure.dir/main.cpp.o: ../Extract.h
+CMakeFiles/dataStructure.dir/main.cpp.o: ../main.cpp
 
