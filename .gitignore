@@ -4,6 +4,8 @@ data.txt
 
 data.txt_compressed
 
+data.txt_compressed.txt
+
 .idea/
 
 *.o
