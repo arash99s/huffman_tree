@@ -155,7 +155,7 @@ Compress::readAndWrite() {
         return false;
     }
     BitBuffer bitBuffer;
-    bitBuffer.file = ofstream("../compressed", ios::out | ios::binary);
+    bitBuffer.file = ofstream("../../compressed", ios::out | ios::binary);
     while (!myfile.eof()) {
         char myChar;
         myfile.get(myChar);
