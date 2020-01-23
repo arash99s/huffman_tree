@@ -3,3 +3,5 @@ compressed
 data.txt
 
 .idea/
+
+*.o
