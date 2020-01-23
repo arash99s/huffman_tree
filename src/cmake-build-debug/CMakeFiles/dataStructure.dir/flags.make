@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/arash/Desktop/dataStructure/. 
+CXX_INCLUDES = -I/home/arash/github_repositories/huffman_tree/src/. 
 

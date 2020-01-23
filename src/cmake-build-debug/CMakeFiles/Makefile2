@@ -44,10 +44,10 @@ RM = /home/arash/Downloads/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arash/Desktop/dataStructure
+CMAKE_SOURCE_DIR = /home/arash/github_repositories/huffman_tree/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arash/Desktop/dataStructure/cmake-build-debug
+CMAKE_BINARY_DIR = /home/arash/github_repositories/huffman_tree/src/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/dataStructure.dir/all:
 	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/depend
 	$(MAKE) -f CMakeFiles/dataStructure.dir/build.make CMakeFiles/dataStructure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arash/Desktop/dataStructure/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target dataStructure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target dataStructure"
 .PHONY : CMakeFiles/dataStructure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dataStructure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arash/Desktop/dataStructure/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dataStructure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arash/Desktop/dataStructure/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arash/github_repositories/huffman_tree/src/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/dataStructure.dir/rule
 
 # Convenience name for target.
