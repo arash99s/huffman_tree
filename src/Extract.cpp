@@ -24,7 +24,7 @@ Extract::execute() {
             buff += byte_buff.at(i);
             char mychar;
             if(findChar(mychar , buff)){
-                cout << mychar ;
+                //cout << mychar ;
                 extracted << mychar;
                 buff = "";
             }

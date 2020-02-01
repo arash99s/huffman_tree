@@ -6,31 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/arash/github_repositories/huffman_tree/src/BitBuffer.h
-bitset
-/home/arash/github_repositories/huffman_tree/src/bitset
+/home/arash/github_repositories/huffman_tree/src/Compress.h
+iostream
+/home/arash/github_repositories/huffman_tree/src/iostream
 fstream
 /home/arash/github_repositories/huffman_tree/src/fstream
+vector
+/home/arash/github_repositories/huffman_tree/src/vector
+bitset
+/home/arash/github_repositories/huffman_tree/src/bitset
 
-/home/arash/github_repositories/huffman_tree/src/Compress.cpp
+/home/arash/github_repositories/huffman_tree/src/Extract.h
+iostream
+/home/arash/github_repositories/huffman_tree/src/iostream
+fstream
+/home/arash/github_repositories/huffman_tree/src/fstream
+vector
+/home/arash/github_repositories/huffman_tree/src/vector
+bitset
+/home/arash/github_repositories/huffman_tree/src/bitset
+
+/home/arash/github_repositories/huffman_tree/src/main.cpp
+iostream
+-
 Compress.h
 /home/arash/github_repositories/huffman_tree/src/Compress.h
-iostream
-/home/arash/github_repositories/huffman_tree/src/iostream
-vector
-/home/arash/github_repositories/huffman_tree/src/vector
-BitBuffer.h
-/home/arash/github_repositories/huffman_tree/src/BitBuffer.h
-math.h
-/home/arash/github_repositories/huffman_tree/src/math.h
-
-/home/arash/github_repositories/huffman_tree/src/Compress.h
-iostream
-/home/arash/github_repositories/huffman_tree/src/iostream
-fstream
-/home/arash/github_repositories/huffman_tree/src/fstream
-vector
-/home/arash/github_repositories/huffman_tree/src/vector
-bitset
-/home/arash/github_repositories/huffman_tree/src/bitset
+Extract.h
+/home/arash/github_repositories/huffman_tree/src/Extract.h
+string.h
+/home/arash/github_repositories/huffman_tree/src/string.h
 
